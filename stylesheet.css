@@ -1,0 +1,17 @@
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+  float: left;
+  border-radius: 0;
+  height: 85px;
+}
+
+.navbar-nav {
+  float: left;
+  margin-top: -6px;
+  margin-left: 87px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFF;
+  padding: 40px;
+  font-weight: bold;
+}
