@@ -131,18 +131,11 @@
         <img src="images/demo-content/home-featured-5.jpg">
       </div>
   </div>
-</div>
-
-
-
-
-
-
-<!-- start featured items -->
+</div><!-- end featured items -->
 
 
  
-
+<!-- javascript -->
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -153,8 +146,9 @@
   <script>
     $(document).ready(function() {
  
-  $("#owl-example").owlCarousel();
- 
+  $("#owl-example").owlCarousel({
+  items: 4,
+ });
 });
   </script>
 </body>	
