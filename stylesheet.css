@@ -1,0 +1,61 @@
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+  float: left;
+  border-radius: 0;
+  height: 85px;
+}
+
+.navbar-nav {
+  float: left;
+  margin-top: -6px;
+  margin-left: 87px;
+}
+
+.navbar-secondary {
+	margin-bottom: 0px;
+}
+
+.icon-box .icon-box-short .fa {
+  font-size: 32px;
+  top: 5px;
+  right: 3px;
+  position: relative;
+  }
+
+.navbar-inverse {
+  margin-bottom: 0px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    display: none;
+}
+
+.returns-shipping {
+ background: #f2f2f2;
+}
+
+.icon-box {
+  display: inline-block;
+  margin: -5px 30px 0;
+}
+
+.fa {
+  font-size: 32px;
+  top: 5px;
+  right: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+.icon-box, .icon-box-short {
+  display: inline-block;
+  margin: 26px 30px 0;
+}
+
+h4, .h4 {
+  font-size: 1px;
+  display: inline-block;
+  margin: -5px 30px 0;
+}
+
+
