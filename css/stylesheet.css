@@ -108,4 +108,17 @@ h4, .h4 {
   border-top: 1px solid #fff;
 }
 
+.payment-options li {
+  display: inline-block;
+}
+
+.payment {
+ float:right;
+ text-align: right;
+}
+
+.legal-line {
+ float:left;
+ text-align: left;
+}
 
