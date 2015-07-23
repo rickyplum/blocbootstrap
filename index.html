@@ -57,16 +57,24 @@
             <li><a href="#about">About</a>  
             <li><a href="#contact">Contact</a> 
           </ul>
+
+          <div class="search">
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+              </div>  
+              </div>
+            </form>
         </div>
+        </div>
+
+
+
       </div><!-- End Container-->
 
-      <div class="search">
-        <div class="container">
-          <input type="search" class="form-control" id="search" placeholder="Search">
-
-      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-        </div>
-    </div>
+      
 
     </nav><!-- End navbar -->
 
@@ -133,8 +141,10 @@
     Featured Items
   </h2>
       <div id="owl-example" class="owl-carousel owl-theme">
-        <img src="images/demo-content/home-featured-5.jpg">
-        <p>Skater Dress in Floral Print with Cut Out Shoulders</p>
+        <div>
+          <img src="images/demo-content/home-featured-5.jpg">
+          <p>Skater Dress in Floral Print with Cut Out Shoulders</p>
+        </div>
         <img src="images/demo-content/home-featured-8.jpg">
         <img src="images/demo-content/home-featured-5.jpg">
         <img src="images/demo-content/home-featured-8.jpg">
@@ -205,6 +215,8 @@
               <img src="images/demo-content/shop-item-top-01.jpg">
             </div>
             <div class="col-md-8">
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
               <p>Knit dress with seaming detail</p>
               <span class="price">$55.00</span>
             </div>
@@ -233,19 +245,37 @@
           </div>
         </div>
         <div class="col-md-4 tile">
-          <img src="images/demo-content/shop-item-top-04.jpg">
-          <p>Knit dress with seaming detail</p>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/demo-content/shop-item-top-04.jpg">
+            </div>
+            <div class="col-md-8">
+              <p>Knit dress with seaming detail</p>
               <span class="price">$55.00</span>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 tile">
-          <img src="images/demo-content/shop-item-top-05.jpg">
-          <p>Knit dress with seaming detail</p>
+            <div class="row">
+            <div class="col-md-4">
+              <img src="images/demo-content/shop-item-top-04.jpg">
+            </div>
+            <div class="col-md-8">
+              <p>Knit dress with seaming detail</p>
               <span class="price">$55.00</span>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 tile">
-          <img src="images/demo-content/shop-item-top-06.jpg">
-          <p>Knit dress with seaming detail</p>
+            <div class="row">
+            <div class="col-md-4">
+              <img src="images/demo-content/shop-item-top-04.jpg">
+            </div>
+            <div class="col-md-8">
+              <p>Knit dress with seaming detail</p>
               <span class="price">$55.00</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -380,7 +410,7 @@
 </div>
 <hr>
 <div class="legal-line"> 
-  <h5>© 2014 Ricky Plum<h5>
+  <p>© 2014 Ricky Plum</p>
 </div>
   <div class="payment">
   <ul class="payment-options">
